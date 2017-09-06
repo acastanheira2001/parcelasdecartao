@@ -16,9 +16,18 @@ import com.google.firebase.database.*;
 	//	@Exclude
 	//	private String uid;
 
+		public Person(String name, String address){
+			setName(name);
+			setAddress(address);
+		}
+	
+	
 		public Person() {
 			/*Blank default constructor essential for Firebase*/
 		}
+	
+		
+		
 		
 		//Getters and setters
 	/*	public String getUid(){
